@@ -2,13 +2,13 @@
 %global rlibdir  %{_libdir}/R/library
 
 Name:             R-%{packname}
-Version:          2.1.3
+Version:          2.2.1
 Release:          1
 Summary:          Fast Nearest Neighbour Search
 Group:            Sciences/Mathematics
 License:          GPL-2
 URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
-Source0:          http://cran.r-project.org/src/contrib/%{packname}_%{version}.tar.gz
+Source0:          http://cran.r-project.org/src/contrib/RANN_2.2.1.tar.gz
 BuildRequires:    R-devel Rmath-devel texlive-collection-latex 
 
 %description
@@ -39,15 +39,9 @@ rm -f %{buildroot}%{rlibdir}/R.css
 %doc %{rlibdir}/%{packname}/DESCRIPTION
 %{rlibdir}/%{packname}/INDEX
 %{rlibdir}/%{packname}/NAMESPACE
+%{rlibdir}/%{packname}/NEWS
 %{rlibdir}/%{packname}/Meta
 %{rlibdir}/%{packname}/R
 %{rlibdir}/%{packname}/help
 %{rlibdir}/%{packname}/libs
-
-
-%changelog
-* Fri Feb 17 2012 Paulo Andrade <pcpa@mandriva.com.br> 2.1.3-1
-+ Revision: 775999
-- Import R-RANN
-- Import R-RANN
 
