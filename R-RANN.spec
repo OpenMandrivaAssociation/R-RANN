@@ -3,7 +3,7 @@
 
 Name:             R-%{packname}
 Version:          2.2.1
-Release:          1
+Release:          2
 Summary:          Fast Nearest Neighbour Search
 Group:            Sciences/Mathematics
 License:          GPL-2
