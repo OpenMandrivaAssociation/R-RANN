@@ -44,3 +44,4 @@ rm -f %{buildroot}%{rlibdir}/R.css
 %{rlibdir}/%{packname}/R
 %{rlibdir}/%{packname}/help
 %{rlibdir}/%{packname}/libs
+%{rlibdir}/%{packname}/COPYRIGHT
